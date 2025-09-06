@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registration Form (Table Layout)</title>
+  <link rel="icon" type="image/x-icon" href="a.png"> 
+</head>
+<body>
+  <form action="#" method="post">
+    <table border="1" cellpadding="6" cellspacing="0" >
+        <tr>
+            <th colspan="2" style="color: green;">Online Registration Form</th>
+        </tr>
+      <tr>
+        <th bgcolor="brown" colspan="2">Aspairent Form</th>
+      </tr>
+
+      <tr>
+        <td><label for="fullname">Full Name</label></td>
+        <td><input type="text" id="fullname" name="fullname" placeholder="First Name here" required /></td>
+      </tr>
+
+      <tr>
+        <td><label for="username">Username</label></td>
+        <td><input type="text" id="username" name="username" placeholder="Last Name here" required /></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" id="email" name="email" required /></td>
+      </tr>
+
+      <tr>
+        <td><label for="phone">Phone</label></td>
+        <td><input type="tel" id="phone" name="phone" /></td>
+      </tr>
+
+      <tr>
+        <td><label for=file>Choose file</label> </td>
+        <td><input type="file"></td>
+      </tr>
+
+
+
+
+      <tr>
+        <td>Education</td>
+        <td>
+          <label><input type="radio" name="Education" value="High School" /> High School</label>
+          <label><input type="radio" name="Education" value="Graduate" /> Graduate</label>
+          <label><input type="radio" name="Education" value="Some College" />Some College</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Gender</td>
+        <td>
+          <label><input type="radio" name="gender" value="male" /> Male</label>
+          <label><input type="radio" name="gender" value="female" /> Female</label>
+          <label><input type="radio" name="gender" value="other" /> Other</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="dob">Date of Birth</label></td>
+        <td><input type="date" id="dob" name="dob" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="address">Address</label></td>
+        <td><textarea id="address" name="address" rows="3" cols="30"></textarea></td>
+      </tr>
+
+      <tr>
+        <td><label for="Occupation">Occupation</label></td>
+        <td>
+          <select id="Occupation" name="Occupation" required>
+            <option value="" selected disabled>-- Select --</option>
+            <option value="st">Student</option>
+            <option value="te">Teacher</option>
+            <option value="bs">Bussinessman</option>
+            <option value="pr">Principal</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="password" id="password" name="password" required /></td>
+      </tr>
+
+      <tr>
+        <td><label for="confirm">Confirm Password</label></td>
+        <td><input type="password" id="confirm" name="confirm" required /></td>
+      </tr>
+
+      <tr>
+        <td>Terms</td>
+        <td>
+          <label>
+            <input type="checkbox" name="terms" required />
+            I agree to the terms and conditions
+          </label>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Register" />
+          <input type="reset" value="Clear" />
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
