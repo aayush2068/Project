@@ -1,5 +1,11 @@
+h1{
+    color:orange;
+    text-align: center;
+}
+
 body{
     margin:0px;
+    background-linear-gradient:(to right, skyblue, white)
 }
 
 .navbar ul{
@@ -27,5 +33,6 @@ body{
 p{
     color:blue
 }
+
 
 
